@@ -3,7 +3,7 @@ Postgres on Kubernetes
 
 Extends the original postgres docker image to read the credentials from /etc/postgres-credentials.
 
-Image Name: msiegenthaler/postgres@9.5
+Image Name: msiegenthaler/postgres-kubernetes@9.5
 
 
 
@@ -30,7 +30,7 @@ Usage
         spec:
           containers:
             - name: postgres
-              image: msiegenthaler/postgres@9.5
+              image: msiegenthaler/postgres-kubernetes@9.5
               ports:
                 - name: transport
                   containerPort: 5432
