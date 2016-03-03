@@ -1,4 +1,4 @@
-FROM postgres:9.4.5
+FROM postgres:9.4.6
 MAINTAINER Ferdinand Hübner <ferdinand.huebner@bedag.ch>
 MAINTAINER Mario Siegenthaler <mario.siegenthaler@bedag.ch>
 
