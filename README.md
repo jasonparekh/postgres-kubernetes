@@ -15,13 +15,9 @@ Usage
     kind: ReplicationController
     apiVersion: v1
     metadata:
-      name: postgres
-      role: master
+      name: postgres-master
     spec:
       replicas: 1  #only one is allowed
-      selector:
-        name: postgres
-        role: master
       template: 
         metadata:
           labels:
